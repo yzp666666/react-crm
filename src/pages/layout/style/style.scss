@@ -1,0 +1,65 @@
+.my-layout{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    &>.ant-layout{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;  
+    }
+}
+
+
+.ant-layout-sider{
+    position: relative;
+    .trigger{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color:#fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+.small{
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+}
+
+.my-header{
+    padding-left: 20px;
+    box-sizing: border-box;
+    .bread{
+        color: #fff;
+    }
+    .ant-breadcrumb{
+        color: #fff;
+        line-height: 64px;
+    }
+    .ant-breadcrumb-link{
+        color: #fff;
+        line-height: 64px;
+    }
+    .ant-breadcrumb-link a{
+        color: #fff;
+    }
+    .ant-breadcrumb-separator{
+        color: #fff;
+    }
+}
